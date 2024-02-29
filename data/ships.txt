@@ -1,11 +1,11 @@
 ship "Firefly"
 	sprite "ship/Firefly"
-		"scale" .05
+		"scale" .6
     	thumbnail "thumbnail/pirate scrapper"
 	attributes
 		category "Interceptor"
 		"cost" 60000
-		"shields" 450
+		"shields" 111450
 		"hull" 520
 		"required crew" 1
 		"bunks" 4
@@ -23,18 +23,29 @@ ship "Firefly"
 			"hull damage" 50
 			"hit force" 140
 	outfits
-		"Twin Blaster"
+		"Flamethrower"
+		"Ramscoop"
 		
 		"KP-6 Photovoltaic Panel" 4
 		"LP036a Battery Pack"
 		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
+		"Test Engine"
+		"Fueled Steering"
+		"Flaming Afterburner"
+		#"Volcano Afterburner"
+		#"X2200 Ion Steering"
 		"Hyperdrive"
 		
-	engine -6 30
-	engine 6 30
-	gun 0 -31
+	engine -10 43
+	engine 10 43
+	gun 0 -58
+	#steering engine -43 38
+	#steering engine 60 60
+	#	"angle" 225
+	#	"right"
+	#steering engine 43 38
+	#	"angle" 135
+	#	"left"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
