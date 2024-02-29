@@ -1,0 +1,23 @@
+The derelict Auxiliary Kalash orbits a gas giant in a disconnected system. it ended up here when it's hyperdrive malfunctioned jumping from the pirate system of <name>,
+just before it could be disabled. Trapped here without any Hyperspace lanes, it has survived only due to its two remaining fighters being able to mine asteroids 
+as well as strange asteroid like creatures they've taken to call Biodes based on their palatable meat-like interior hidden by their rocky shell.
+
+Two years after the mishap, the player has finally designed and built another small launch ship. The "Firefly" it's a small one crew ship that might as well be a fighter.
+it has no hyperdrive, and it's only engine, and weapon for that matter, is a modified afterburner designed to spew burning hyperdrive fuel out the back for allowing it to
+mine asteroids. It took a while to get the design approved since it uses so much fuel but considering that building basic ramscoops out of mined materials was one of the 
+first things the engineers figured out after getting stranded you shouldn't have much trouble flying the thing, beside the fact that you mine asteroids with it's engine that is.
+
+Mission one: prove your design.
+    "with your ship launching for the first time, we need to make sure it wasn't a big waste of time and resources. Get out there and fill your hold with Biode meat."
+
+Mission two: proper engine.
+    "With the proof of concept working, we really should put a proper engine on that thing. Bring back <metal> and we can move that ridiculous 
+    flamethrower of yours to the front of your ship."
+
+Mission three: tanker ship.
+    "it's nice to have your ship out working but its cargo hold is so small that you can't really get much done in a single run. I've got a design for a autonomous gathering 
+    escort but I need <metal> to finish building it. Could you go get it for me? 
+
+Mission four: Flying Biodes.
+    "with your Firefly working, and having a couple Misquotes running too, we want you to investigate some anomalous Biodes. I'm sure you've seen them, 
+    the ones that seem to move with intent and not just float around, I want you to disable one and bring me anything different you find inside." 
