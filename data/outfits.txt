@@ -1,0 +1,2 @@
+outfit "Hyperdrive"
+	licenses "Pilot's"
