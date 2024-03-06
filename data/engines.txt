@@ -1,4 +1,4 @@
-outfit "Flaming Afterburner"
+outfit "Afterburner Engine"
 	category "Engines"
 	thumbnail "ship/Firefly"
 	series "Human: Afterburners"
@@ -7,49 +7,10 @@ outfit "Flaming Afterburner"
 	"mass" 10
 	"outfit space" -10
 	"engine capacity" -10
-	"afterburner thrust" 27.1
+	"afterburner thrust" 10
 	"afterburner fuel" .125
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	"turn" 192
+	"turn" 145
 	"turning fuel" .1
 	"turning heat" 5
-
-effect "Afterburner Projectile"
-
-	sprite "projectile/flamethrower"
-		"frame rate" 17
-		"random start frame"
-	"hit effect" "flamethrower hit"
-	"die effect" "flamethrower die"
-	"inaccuracy" 20
-	"lifetime" 18
-	"random lifetime" 8
-	"damage dropoff" 0 198
-	"dropoff modifier" .5
-	"shield damage" .8
-	"hull damage" .7
-	"heat damage" 125
-
-effect "afterburner"
-	sprite "effect/small explosion"
-		"no repeat"
-		"frame rate" 30
-	sound "afterburner"
-	"lifetime" 10
-	"random angle" 30
-	"random spin" 10
-	"random velocity" 1.
-	"velocity scale" 1.
-
-outfit "Fueled Steering" 
-	category "Engines"
-	thumbnail "ship/Firefly"
-	"flare sprite" "effect/afterburner"
-		"frame rate" 1.2
-	"outfit space" -10
-	"engine capacity" -10
-	"mass" 10
-	"turn" 192
-	"turning fuel" .25
-	

@@ -8,11 +8,11 @@ ship "Firefly"
 		"shields" 111450
 		"hull" 520
 		"required crew" 1
-		"bunks" 4
+		"bunks" 1
 		"mass" 62
 		"drag" 1.4
 		"heat dissipation" .8
-		"fuel capacity" 300
+		"fuel capacity" 400
 		"cargo space" 21
 		"outfit space" 125
 		"weapon capacity" 12
@@ -36,8 +36,8 @@ ship "Firefly"
 		#"X2200 Ion Steering"
 		"Hyperdrive"
 		
-	engine -10 43
-	engine 10 43
+	engine -10 47
+	engine 10 47
 	gun 0 -58
 	#steering engine -43 38
 	#steering engine 60 60
