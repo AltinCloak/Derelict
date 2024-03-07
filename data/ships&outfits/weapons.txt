@@ -1,8 +1,8 @@
 outfit "Heatsink Ejector"
 	category "Secondary Weapons"
 	cost 0
-	"mass" 15
-	"outfit space" -10
+	"mass" 5
+	"outfit space" -5
 	"weapon capacity" -5
 	"gun port" -1
 	"heatsink capacity" 10
@@ -15,42 +15,42 @@ outfit "Heatsink Ejector"
 		"velocity" 3
 		"lifetime" 250
 		"reload" 100
-		"firing energy" 10
-		"firing heat" -600
-		"shield damage" 4.8
-		"hull damage" 6.6
-		"heat damage" 300
+		"firing energy" 50
+		"firing heat" -1000
+		"shield damage" 2.8
+		"hull damage" 4.6
+		"heat damage" 600
 		"hit force" 10
+		"firing force" .5
 
 
 outfit "Heatsink"
 	category "Ammunition"
 	cost 0
-	thumbnail "heatsink"
+	thumbnail "heatsink_thumbnail"
 	"mass" .04
 	"heatsink capacity" -1
 	description "A heatsink that you can fire out of your ship to reduce it's heat dramatically"
 
 outfit "Mining Drill"
 	category "Guns"
+	thumbnail "mining_drill/drill_thumbnail"
 	cost 0
-	"mass" 20
-	"outfit space" -10
-	"weapon capacity" -10
+	"mass" 4
+	"outfit space" -4
+	"weapon capacity" -4
 	"gun port" -1
-	thumbnail "mining_drill/drill"
 	weapon
 		sprite "mining_drill/drill"
-			"frame rate" 8
-			"start frame" 01
+			"frame rate" 31
 		"inaccuracy" 0
-		"velocity" 800
+		"velocity" 35
 		"lifetime" 1
 		"reload" 1
-		"firing energy" .67
+		"firing energy" 1.4
 		"firing heat" .5
 		"shield damage" .2
-		"hull damage" 4
-		"minable damage" 10
+		"hull damage" 2
+		"minable damage" 3
 
 

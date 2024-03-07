@@ -1,7 +1,7 @@
 ship "Firefly"
 	sprite "ship/Firefly"
 		"scale" .6
-    thumbnail "ship/Firefly"
+	thumbnail "ship/Firefly"
 	attributes
 		category "Interceptor"
 		"cost" 0
@@ -9,7 +9,7 @@ ship "Firefly"
 		"hull" 520
 		"required crew" 1
 		"bunks" 1
-		"mass" 132
+		"mass" 200
 		"drag" 1.4
 		"heat dissipation" .8
 		"fuel capacity" 400
@@ -17,7 +17,8 @@ ship "Firefly"
 		"outfit space" 12511
 		"weapon capacity" 12111
 		"engine capacity" 5811
-		"drag" 1
+		"drag" 1.5
+		"absolute threshold" 10
 		weapon
 			"blast radius" 10
 			"shield damage" 80
@@ -30,11 +31,9 @@ ship "Firefly"
 		"Heatsink" 50
 		
 		"Fuel Turbine"
-		"LP036a Battery Pack"
+		"Supercapacitor"
 		"Asteroid Scanner"
-		"Asteroid Scanner"
-		"Asteroid Scanner"
-		
+
 		"Afterburner Engine"
 
 		

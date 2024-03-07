@@ -4,14 +4,14 @@ outfit "Afterburner Engine"
 	series "Human: Afterburners"
 	"cost" 0
 	#thumbnail "outfit/"
-	"mass" 10
-	"outfit space" -10
-	"engine capacity" -10
-	"afterburner thrust" 10
-	"afterburner fuel" .4
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"afterburner thrust" 23
+	"afterburner fuel" .3
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	"turn" 230
-	"turning fuel" .1
-	"turning heat" 5
+	"turn" 340
+	"turning fuel" .2
+	"turning heat" 8.5
 	"turning hull" .01

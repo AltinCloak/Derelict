@@ -5,4 +5,4 @@ outfit "Fuel Turbine"
 	"outfit space" -5
 	"fuel consumption" .1
 	"fuel energy" .5
-	"fuel heat" 1.3
+	"fuel heat" 1.7

@@ -17,7 +17,7 @@ system Gone
 	minables tungsten 2 4.45307
 	ramscoop
 		universal 1
-		addend 0.12
+		addend 0.08
 		multiplier 1
 	object
 		sprite star/protostar-yellow
@@ -37,7 +37,7 @@ planet "Auxiliary: Kalash"
 	attributes "Derelict" station
 	landscape land/sivael5
 	music ambient/machinery
-	description `This derelict Auxiliary has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded `
+	description `This derelict Auxiliary has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops`
 	security 0.0
 	shipyard "Kalash"
 	outfitter "Kalash"

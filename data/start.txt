@@ -61,7 +61,7 @@ start "Derelict"
 conversation "derelict start"
 	scene "land/loc2"
 	`test`
+	government "Escort"
+	swizzle 0
 	name
 	
-government "Escort"
-	swizzle 0
