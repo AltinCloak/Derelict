@@ -14,3 +14,4 @@ outfit "Afterburner Engine"
 	"turn" 230
 	"turning fuel" .1
 	"turning heat" 5
+	"turning hull" .01

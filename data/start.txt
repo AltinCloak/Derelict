@@ -12,7 +12,7 @@ start "Derelict"
 	ship "Firefly"
 		sprite "ship/Firefly"
 			"scale" .6
-			thumbnail "thumbnail/pirate scrapper"
+		thumbnail "ship/Firefly"
 		attributes
 			category "Interceptor"
 			"cost" 0
@@ -26,8 +26,9 @@ start "Derelict"
 			"fuel capacity" 400
 			"cargo space" 21
 			"outfit space" 12511
-			"weapon capacity" 12
+			"weapon capacity" 1211
 			"engine capacity" 58
+			"drag" 1
 			weapon
 				"blast radius" 10
 				"shield damage" 80

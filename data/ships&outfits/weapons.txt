@@ -38,18 +38,19 @@ outfit "Mining Drill"
 	"outfit space" -10
 	"weapon capacity" -10
 	"gun port" -1
-	thumbnail "mining_drill/drill1"
+	thumbnail "mining_drill/drill"
 	weapon
 		sprite "mining_drill/drill"
-			"frame rate" 3
+			"frame rate" 8
+			"start frame" 01
 		"inaccuracy" 0
-		"velocity" 50
+		"velocity" 800
 		"lifetime" 1
 		"reload" 1
 		"firing energy" .67
 		"firing heat" .5
 		"shield damage" .2
 		"hull damage" 4
-		"mining damage" 10
+		"minable damage" 10
 
 
