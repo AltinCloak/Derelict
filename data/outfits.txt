@@ -1,2 +1,5 @@
-outfit "Hyperdrive"
-	licenses "Pilot's"
+outfitter "Kalash"
+	"Afterburner Engine"
+	"Heatsink"
+	"Mining Drill"
+	"Beam Laser"

@@ -1,4 +1,4 @@
-The derelict Auxiliary Kalash orbits a gas giant in a disconnected system. it ended up here when it's hyperdrive malfunctioned jumping from the pirate system of <name>,
+The derelict Auxiliary: Kalash orbits a gas giant in a disconnected system. it ended up here when it's hyperdrive malfunctioned jumping from the pirate system of <name>,
 just before it could be disabled. Trapped here without any Hyperspace lanes, it has survived only due to its two remaining fighters being able to mine asteroids 
 as well as strange asteroid like creatures they've taken to call Biodes based on their palatable meat-like interior hidden by their rocky shell.
 

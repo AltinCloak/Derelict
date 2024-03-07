@@ -1,2 +1,5 @@
 shipyard "All Ships"
     "Firefly"
+shipyard "Kalash"
+	"Firefly"
+	"tiny Firefly"

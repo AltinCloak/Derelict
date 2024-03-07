@@ -1,0 +1,8 @@
+outfit "Fuel Turbine"
+	category "Power"
+	cost 0
+	"mass" 5
+	"outfit space" -5
+	"fuel consumption" .1
+	"fuel energy" .5
+	"fuel heat" 1.3

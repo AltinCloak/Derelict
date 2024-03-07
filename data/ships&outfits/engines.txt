@@ -2,15 +2,15 @@ outfit "Afterburner Engine"
 	category "Engines"
 	thumbnail "ship/Firefly"
 	series "Human: Afterburners"
-	"cost" 70000
+	"cost" 0
 	#thumbnail "outfit/"
 	"mass" 10
 	"outfit space" -10
 	"engine capacity" -10
 	"afterburner thrust" 10
-	"afterburner fuel" .125
+	"afterburner fuel" .4
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
-	"turn" 145
+	"turn" 230
 	"turning fuel" .1
 	"turning heat" 5

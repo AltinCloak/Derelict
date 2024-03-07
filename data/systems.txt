@@ -1,0 +1,46 @@
+system Gone
+	pos -980.667 200.917
+	attributes "Derelict"
+	government Republic
+	arrival 500
+	habitable 370
+	belt 1993
+	haze _menu/haze-67
+	asteroids "small rock" 2 3.094
+	asteroids "medium rock" 5 2.142
+	asteroids "large rock" 2 1.768
+	asteroids "small metal" 7 4.998
+	asteroids "medium metal" 75 3.434
+	asteroids "large metal" 27 3.4
+	minables lead 11 3.87213
+	minables silicon 35 3.68659
+	minables tungsten 2 4.45307
+	ramscoop
+		universal 1
+		addend 0.12
+		multiplier 1
+	object
+		sprite star/protostar-yellow
+		period 10
+	object
+		sprite planet/gas3-hot
+		distance 859.58
+		period 1667.55
+		object "Auxiliary: Kalash"
+			sprite ship/auxiliaryt
+				scale 0.5
+			distance 277
+			period 12.3693
+
+
+planet "Auxiliary: Kalash"
+	attributes "Derelict" station
+	landscape land/sivael5
+	music ambient/machinery
+	description `This derelict Auxiliary has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded `
+	security 0.0
+	shipyard "Kalash"
+	outfitter "Kalash"
+	tribute 100
+		threshold 20
+		fleet "kalash fleet" 8
