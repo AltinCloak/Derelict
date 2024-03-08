@@ -1,6 +1,6 @@
 outfit "Afterburner Engine"
 	category "Engines"
-	thumbnail "ship/Firefly"
+	thumbnail "afterburner-engine"
 	series "Human: Afterburners"
 	"cost" 0
 	#thumbnail "outfit/"
@@ -14,4 +14,3 @@ outfit "Afterburner Engine"
 	"turn" 340
 	"turning fuel" .2
 	"turning heat" 8.5
-	"turning hull" .01

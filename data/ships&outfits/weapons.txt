@@ -1,11 +1,12 @@
 outfit "Heatsink Ejector"
 	category "Secondary Weapons"
+	thumbnail "heatsink_launcher"
 	cost 0
 	"mass" 5
 	"outfit space" -5
 	"weapon capacity" -5
-	"gun port" -1
-	"heatsink capacity" 10
+	"gun ports" -1
+	"heatsink capacity" 50
 	weapon
 		sprite "heatsink"
 		sound "gatling"
@@ -39,7 +40,7 @@ outfit "Mining Drill"
 	"mass" 4
 	"outfit space" -4
 	"weapon capacity" -4
-	"gun port" -1
+	"gun ports" -1
 	weapon
 		sprite "mining_drill/drill"
 			"frame rate" 31

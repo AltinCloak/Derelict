@@ -20,15 +20,16 @@ start "Derelict"
 			"hull" 520
 			"required crew" 1
 			"bunks" 1
-			"mass" 132
+			"mass" 200
 			"drag" 1.4
 			"heat dissipation" .8
 			"fuel capacity" 400
 			"cargo space" 21
 			"outfit space" 12511
-			"weapon capacity" 1211
-			"engine capacity" 58
-			"drag" 1
+			"weapon capacity" 12111
+			"engine capacity" 5811
+			"drag" 1.5
+			"absolute threshold" 10
 			weapon
 				"blast radius" 10
 				"shield damage" 80
@@ -41,11 +42,9 @@ start "Derelict"
 			"Heatsink" 50
 			
 			"Fuel Turbine"
-			"LP036a Battery Pack"
+			"Supercapacitor"
 			"Asteroid Scanner"
-			"Asteroid Scanner"
-			"Asteroid Scanner"
-			
+
 			"Afterburner Engine"
 
 			
@@ -53,6 +52,7 @@ start "Derelict"
 		engine 10 47
 		gun 0 -50 "Mining Drill"
 		gun 12 -35 "Heatsink Ejector"
+			"angle" 15
 		leak "leak" 60 50
 		explode "tiny explosion" 10
 		explode "small explosion" 5
