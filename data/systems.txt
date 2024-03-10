@@ -1,7 +1,7 @@
 system Gone
 	pos -980.667 200.917
 	attributes "Derelict"
-	government Republic
+	government Derelict
 	arrival 500
 	habitable 370
 	belt 1993
@@ -37,7 +37,7 @@ planet "Auxiliary: Kalash"
 	attributes "Derelict" station
 	landscape land/sivael5
 	music ambient/machinery
-	description `This derelict Auxiliary has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops`
+	description `This derelict Auxiliary has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops and mining asteroids and biodes`
 	security 0.0
 	shipyard "Kalash"
 	outfitter "Kalash"

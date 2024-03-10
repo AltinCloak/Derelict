@@ -1,0 +1,12 @@
+outfitter "Kalash"
+	"Mining Drill"
+
+	"Heatsink Ejector"
+	"Heatsink"
+
+	"Biode locator"
+	"Fuel Turbine"
+	"Supercapacitor"
+	
+	"Afterburner Engine"
+	"Gyroscopic Steering"

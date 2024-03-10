@@ -27,13 +27,13 @@ ship "Firefly"
 			"hit force" 140
 	outfits
 		"Mining Drill"
-		"Ramscoop"
 		"Heatsink Ejector"
 		"Heatsink" 50
 		
 		"Fuel Turbine"
 		"Supercapacitor"
-		"Asteroid Scanner"
+		"Biode locator"
+		"Ramscoop"
 
 		"Afterburner Engine"
 
@@ -49,33 +49,63 @@ ship "Firefly"
 	description "This this sucks"
 
 
-ship "Truck"
+ship "Mosquito"
 	sprite "ship/boxwing"
 		"scale" .4
 	attributes
-		category "Light Freighter"
+		category "Drone"
 		"cost" 0
-		"shield" 0
-		"hull" 100
-		"required crew" 1
-		"automaton" 0
-		"bunks" 1
+		"hull" 400
+		"automaton" 1
 		"mass" 100
 		"drag" 1
 		"fuel capacity" 50
-		"cargo space" 244
-		"outfit space" 1911
+		"cargo space" 0
+		"outfit space" 39
 		"engine capacity" 14
-		"weapon capacity" 14
+		"weapon capacity" 4
 		"ramscoop" .5
-		"energy generation" .1
 		"absolute threshold" 10
-		"heat dissipation" .1
+		"heat dissipation" .5
 	outfits
-		"Afterburner Engine"
-		"Cooling Ducts"
 		"Mining Drill"
+
+		"Fuel Turbine"
+		"Supercapacitor"
+
+		"Afterburner Engine"
+		"Gyroscopic Steering"
+		"Gyroscopic Steering"
 	
 	engine 0 20
 	gun 0 0
+	description "tiny"
+
+ship "Bumblebee"
+	sprite "ship/boxwing"
+		"scale" .5
+	attributes
+		category "Drone"
+		"cost" 0
+		"hull" 200
+		"automaton" 1
+		"mass" 120
+		"drag" 1
+		"fuel capacity" 50
+		"cargo space" 14
+		"outfit space" 31
+		"engine capacity" 14
+		"weapon capacity" 0
+		"ramscoop" .5
+		"absolute threshold" 10
+		"heat dissipation" .5
+	outfits
+		"Fuel Turbine"
+		"Supercapacitor"
+
+		"Afterburner Engine"
+		"Gyroscopic Steering"
+		"Gyroscopic Steering"
+	
+	engine 0 20
 	description "tiny"

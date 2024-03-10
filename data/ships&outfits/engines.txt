@@ -3,14 +3,23 @@ outfit "Afterburner Engine"
 	thumbnail "afterburner-engine"
 	series "Human: Afterburners"
 	"cost" 0
-	#thumbnail "outfit/"
 	"mass" 14
 	"outfit space" -14
 	"engine capacity" -14
-	"afterburner thrust" 23
-	"afterburner fuel" .3
+	"afterburner thrust" 12
+	"afterburner fuel" .2
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
 	"turn" 340
 	"turning fuel" .2
 	"turning heat" 8.5
+
+outfit "Gyroscopic Steering"
+	category "Engines"
+	thumbnail ""
+	"cost" 0 
+	"mass" 5
+	"outfit space" -5
+	"turn" 90
+	"turning energy" .4
+
