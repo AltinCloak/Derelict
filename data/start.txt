@@ -9,7 +9,8 @@ start "Derelict"
 	conversation "derelict start"
 	description `you're stuck`
 	set "Intro [0]: offered"
-	ship "Firefly"
+	ship "Firefly M1"
+		"display name" "Firefly"
 		sprite "ship/Firefly"
 			"scale" .6
 		thumbnail "ship/Firefly"
@@ -25,11 +26,12 @@ start "Derelict"
 			"heat dissipation" .8
 			"fuel capacity" 400
 			"cargo space" 21
-			"outfit space" 12511
-			"weapon capacity" 12111
-			"engine capacity" 5811
+			"outfit space" 56
+			"weapon capacity" 17
+			"engine capacity" 14
 			"drag" 1.5
 			"absolute threshold" 10
+			"turning hull" .02
 			weapon
 				"blast radius" 10
 				"shield damage" 80
@@ -37,31 +39,31 @@ start "Derelict"
 				"hit force" 140
 		outfits
 			"Mining Drill"
-			"Ramscoop"
 			"Heatsink Ejector"
 			"Heatsink" 50
 			
 			"Fuel Turbine"
 			"Supercapacitor"
-			"Asteroid Scanner"
+
+			"Ramscoop"
 
 			"Afterburner Engine"
 
-			
+	
 		engine -10 47
 		engine 10 47
 		gun 0 -50 "Mining Drill"
 		gun 12 -35 "Heatsink Ejector"
-			"angle" 15
+			"angle" 7
 		leak "leak" 60 50
 		explode "tiny explosion" 10
 		explode "small explosion" 5
 		description "This this sucks"
+	set "license: Navy"
+
 
 conversation "derelict start"
 	scene "land/loc2"
 	`test`
-	government "Escort"
-	swizzle 0
 	name
 	

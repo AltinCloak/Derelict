@@ -2,9 +2,9 @@ outfit "Heatsink Ejector"
 	category "Secondary Weapons"
 	thumbnail "heatsink_launcher"
 	cost 0
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
 	"gun ports" -1
 	"heatsink capacity" 50
 	weapon

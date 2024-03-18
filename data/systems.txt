@@ -41,6 +41,9 @@ planet "Auxiliary: Kalash"
 	security 0.0
 	shipyard "Kalash"
 	outfitter "Kalash"
+	spaceport "test"
+	services
+		offers missions
 	tribute 100
 		threshold 20
 		fleet "kalash fleet" 8

@@ -1,6 +1,7 @@
 shipyard "All Ships"
 	"Firefly"
 shipyard "Kalash"
-	"Firefly"
+	"Firefly M1"
 	"Mosquito"
 	"Bumblebee"
+	"Mining Surveillance Drone"

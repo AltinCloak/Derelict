@@ -1,4 +1,5 @@
-ship "Firefly"
+ship "Firefly M1"
+	"display name" "Firefly"
 	sprite "ship/Firefly"
 		"scale" .6
 	thumbnail "ship/Firefly"
@@ -14,12 +15,12 @@ ship "Firefly"
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 21
-		"outfit space" 12511
-		"weapon capacity" 12111
-		"engine capacity" 5811
+		"outfit space" 56
+		"weapon capacity" 17
+		"engine capacity" 14
 		"drag" 1.5
 		"absolute threshold" 10
-		"turning hull" .01
+		"turning hull" .02
 		weapon
 			"blast radius" 10
 			"shield damage" 80
@@ -32,7 +33,7 @@ ship "Firefly"
 		
 		"Fuel Turbine"
 		"Supercapacitor"
-		"Biode locator"
+
 		"Ramscoop"
 
 		"Afterburner Engine"
@@ -42,7 +43,7 @@ ship "Firefly"
 	engine 10 47
 	gun 0 -50 "Mining Drill"
 	gun 12 -35 "Heatsink Ejector"
-		"angle" 15
+		"angle" 7
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
@@ -109,3 +110,16 @@ ship "Bumblebee"
 	
 	engine 0 20
 	description "tiny"
+
+
+ship "Surveillance Drone" "Mining Surveillance Drone"
+	"display name" "Modified Surveillance Drone"
+	add attributes
+		"outfit space" -3
+		"cargo space" 5
+	outfits
+		"nGVF-AA Fuel Cell"
+		"Biode locator"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
