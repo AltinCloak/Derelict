@@ -1,8 +1,8 @@
-ship "Firefly M1"
-	"display name" "Firefly"
-	sprite "ship/Firefly"
+ship "Flintstriker M1"
+	"display name" "Flintstriker"
+	sprite "ship/first-ship"
 		"scale" .6
-	thumbnail "ship/Firefly"
+	thumbnail "thumbnails/first-ship"
 	attributes
 		category "Interceptor"
 		"cost" 0
@@ -10,7 +10,7 @@ ship "Firefly M1"
 		"hull" 520
 		"required crew" 1
 		"bunks" 1
-		"mass" 200
+		"mass" 300
 		"drag" 1.4
 		"heat dissipation" .8
 		"fuel capacity" 400
@@ -30,6 +30,8 @@ ship "Firefly M1"
 		"Mining Drill"
 		"Heatsink Ejector"
 		"Heatsink" 50
+		"Flamewheel Launcher"
+		"Flamewheel Can"
 		
 		"Fuel Turbine"
 		"Supercapacitor"
@@ -37,20 +39,27 @@ ship "Firefly M1"
 		"Ramscoop"
 
 		"Afterburner Engine"
+		
 
 		
-	engine -10 47
-	engine 10 47
-	gun 0 -50 "Mining Drill"
-	gun 12 -35 "Heatsink Ejector"
-		"angle" 7
+	gun 0 -40 "Mining Drill"
+	gun 26.5 -28
+		"angle" 67
+	turret 0 0
+	engine 0 32
+	"steering engine" -13 28
+		"left"
+		"angle" 45
+	"steering engine" 13 28
+		"right"
+		"angle" -45
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 5
 	description "This this sucks"
 
 
-ship "Mosquito"
+ship "Firecracker"
 	sprite "ship/boxwing"
 		"scale" .4
 	attributes
@@ -82,7 +91,7 @@ ship "Mosquito"
 	gun 0 0
 	description "tiny"
 
-ship "Bumblebee"
+ship "Logger"
 	sprite "ship/boxwing"
 		"scale" .5
 	attributes
@@ -115,7 +124,7 @@ ship "Bumblebee"
 ship "Surveillance Drone" "Mining Surveillance Drone"
 	"display name" "Modified Surveillance Drone"
 	add attributes
-		"outfit space" -3
+		"outfit space" 3
 		"cargo space" 5
 	outfits
 		"nGVF-AA Fuel Cell"

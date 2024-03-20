@@ -2,18 +2,18 @@ start "Derelict"
 	name "Derelict"
 		date 16 11 3013
 	system "Gone"
-	planet "Auxiliary: Kalash"
+	planet "Carrier: Kalash"
 	account
 		credits 100000000000000000
 		score 0
 	conversation "derelict start"
 	description `you're stuck`
 	set "Intro [0]: offered"
-	ship "Firefly M1"
-		"display name" "Firefly"
-		sprite "ship/Firefly"
+	ship "Flintstriker M1"
+		"display name" "Flintstriker"
+		sprite "ship/first-ship"
 			"scale" .6
-		thumbnail "ship/Firefly"
+		thumbnail "thumbnails/first-ship"
 		attributes
 			category "Interceptor"
 			"cost" 0
@@ -21,7 +21,7 @@ start "Derelict"
 			"hull" 520
 			"required crew" 1
 			"bunks" 1
-			"mass" 200
+			"mass" 300
 			"drag" 1.4
 			"heat dissipation" .8
 			"fuel capacity" 400
@@ -48,13 +48,19 @@ start "Derelict"
 			"Ramscoop"
 
 			"Afterburner Engine"
+			
 
-	
-		engine -10 47
-		engine 10 47
-		gun 0 -50 "Mining Drill"
-		gun 12 -35 "Heatsink Ejector"
-			"angle" 7
+			
+		gun 0 -40 "Mining Drill"
+		gun 26.5 -28
+			"angle" 67
+		engine 0 32
+		"steering engine" -13 28
+			"left"
+			"angle" 45
+		"steering engine" 13 28
+			"right"
+			"angle" -45
 		leak "leak" 60 50
 		explode "tiny explosion" 10
 		explode "small explosion" 5

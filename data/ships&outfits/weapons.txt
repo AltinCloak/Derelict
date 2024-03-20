@@ -1,17 +1,17 @@
 outfit "Heatsink Ejector"
 	category "Secondary Weapons"
-	thumbnail "heatsink_launcher"
+	thumbnail "thumbnails/heatsink_launcher"
 	cost 0
-	"mass" 13
-	"outfit space" -13
-	"weapon capacity" -13
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
 	"gun ports" -1
 	"heatsink capacity" 50
 	weapon
-		sprite "heatsink"
+		sprite "ammo/heatsink"
 		sound "gatling"
 		ammo "Heatsink"
-		icon "heatsink"
+		icon "ammo/heatsink"
 		"inaccuracy" 0
 		"velocity" 3
 		"lifetime" 250
@@ -23,26 +23,28 @@ outfit "Heatsink Ejector"
 		"heat damage" 600
 		"hit force" 10
 		"firing force" .5
+		"missile strength" 1
+	description ""
 
 
 outfit "Heatsink"
 	category "Ammunition"
 	cost 0
-	thumbnail "heatsink_thumbnail"
+	thumbnail "thumbnails/heatsink_thumbnail"
 	"mass" .04
 	"heatsink capacity" -1
 	description "A heatsink that you can fire out of your ship to reduce it's heat dramatically"
 
 outfit "Mining Drill"
 	category "Guns"
-	thumbnail "mining_drill/drill_thumbnail"
+	thumbnail "thumbnails/drill_thumbnail"
 	cost 0
 	"mass" 4
 	"outfit space" -4
 	"weapon capacity" -4
 	"gun ports" -1
 	weapon
-		sprite "mining_drill/drill"
+		sprite "weapon/mining_drill/drill"
 			"frame rate" 31
 		"inaccuracy" 0
 		"velocity" 35
@@ -53,5 +55,56 @@ outfit "Mining Drill"
 		"shield damage" .2
 		"hull damage" 2
 		"minable damage" 3
+		"prospecting
+	description ""
+
+outfit "Flamewheel Launcher"
+	category "Turrets"
+	cost 0
+	thumbnail ""
+	"mass" 10
+	"outfit space" -15
+	"weapon capacity" -15
+	"turret mounts" -1
+	"flamewheel capacity" 20
+	weapon
+		sprite "ammo/flamewheel-can"
+		icon "ammo/flaming-wheel"
+		ammo "Flamewheel Can"
+		"inaccuracy" 3
+		"velocity" 5
+		"lifetime" 40
+		"turret turn" 7
+		"reload" 60
+		"firing energy" 50
+		"firing heat" 5
+		"shield damage" 2.8
+		"hull damage" 4.6
+		"hit force" 5
+		"missile strength" 5
+		"submunition" "Flaming Wheel"
+	description ""
+
+outfit "Flaming Wheel"
+	weapon
+		sprite "ammo/flaming-wheel"
+		"framerate" 8
+	"velocity" 0
+	"penetration count" 0
+	"lifetime" 240
+	"shield damage" 1
+	"hull damage" 1
+	"heat damage" 2
+	"burn damage" 0.2
+
+outfit "Flamewheel Can"
+	category "Ammunition
+	"cost" 0
+	thumbnail ""
+	"mass" .1
+	"flamewheel capacity" -1
+	"fuel capacity" 5
+	description ""
+
 
 

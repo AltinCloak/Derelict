@@ -26,24 +26,25 @@ system Gone
 		sprite planet/gas3-hot
 		distance 859.58
 		period 1667.55
-		object "Auxiliary: Kalash"
-			sprite ship/auxiliaryt
+		object "Carrier: Kalash"
+			sprite ship/carrier
 				scale 0.5
 			distance 277
 			period 12.3693
 
 
-planet "Auxiliary: Kalash"
+planet "Carrier: Kalash"
 	attributes "Derelict" station
 	landscape land/sivael5
 	music ambient/machinery
-	description `This derelict Auxiliary has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops and mining asteroids and biodes`
+	description `This derelict Carrier has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops and mining asteroids and biodes`
 	security 0.0
 	shipyard "Kalash"
 	outfitter "Kalash"
 	spaceport "test"
-	services
-		offers missions
+		recharges all
+		services
+			offers missions
 	tribute 100
 		threshold 20
 		fleet "kalash fleet" 8

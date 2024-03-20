@@ -3,6 +3,8 @@ outfitter "Kalash"
 
 	"Heatsink Ejector"
 	"Heatsink"
+	"Flamewheel Launcher"
+	"Flamewheel Can"
 
 	"Biode locator"
 	"Fuel Turbine"

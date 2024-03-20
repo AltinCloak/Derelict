@@ -1,15 +1,16 @@
 mission "firefly test 0"
 	name "Gather Biode meat"
 	description "gather biode meat"
-	source "Auxiliary: Kalash"
+	landing
+	source "Carrier: Kalash"
 	to offer
 
 	on offer 
-		# event "Set Color"
+		#event "Set Color"
 		conversation
-		`this is a test`
-		`	this is a second test`
-			accept
+			`this is a test`
+			`this is a second test`
+				accept
 	on accept
 		event "Set Color"	
 

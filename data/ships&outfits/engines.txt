@@ -1,6 +1,6 @@
 outfit "Afterburner Engine"
 	category "Engines"
-	thumbnail "afterburner-engine"
+	thumbnail "thumbnails/afterburner-engine"
 	series "Human: Afterburners"
 	"cost" 0
 	"mass" 14
@@ -13,6 +13,8 @@ outfit "Afterburner Engine"
 	"turn" 340
 	"turning fuel" .2
 	"turning heat" 8.5
+	"steering flare sprite" "effect/plasma flare/small"
+		"frame rate" 6
 
 outfit "Gyroscopic Steering"
 	category "Engines"
