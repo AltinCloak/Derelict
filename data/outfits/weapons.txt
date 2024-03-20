@@ -72,8 +72,8 @@ outfit "Flamewheel Launcher"
 		icon "ammo/flaming-wheel"
 		ammo "Flamewheel Can"
 		"inaccuracy" 3
-		"velocity" 5
-		"lifetime" 40
+		"velocity" 1
+		"lifetime" 70
 		"turret turn" 7
 		"reload" 60
 		"firing energy" 50
@@ -88,17 +88,17 @@ outfit "Flamewheel Launcher"
 outfit "Flaming Wheel"
 	weapon
 		sprite "ammo/flaming-wheel"
-		"framerate" 8
-	"velocity" 0
-	"penetration count" 0
-	"lifetime" 240
-	"shield damage" 1
-	"hull damage" 1
-	"heat damage" 2
-	"burn damage" 0.2
+			"frame rate" 32
+		"velocity" 0
+		"penetration count" 0
+		"lifetime" 240
+		"shield damage" 2
+		"hull damage" 2
+		"heat damage" 4
+		"burn damage" 0.5
 
 outfit "Flamewheel Can"
-	category "Ammunition
+	category "Ammunition"
 	"cost" 0
 	thumbnail ""
 	"mass" .1

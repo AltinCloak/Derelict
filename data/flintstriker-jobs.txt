@@ -1,10 +1,10 @@
-mission "firefly test 0"
+mission "Flintstriker test 0"
 	name "Gather Biode meat"
 	description "gather biode meat"
 	landing
 	source "Carrier: Kalash"
 	to offer
-
+		DerelictStart 1
 	on offer 
 		#event "Set Color"
 		conversation

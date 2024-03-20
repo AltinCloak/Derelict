@@ -30,8 +30,6 @@ ship "Flintstriker M1"
 		"Mining Drill"
 		"Heatsink Ejector"
 		"Heatsink" 50
-		"Flamewheel Launcher"
-		"Flamewheel Can"
 		
 		"Fuel Turbine"
 		"Supercapacitor"
@@ -45,7 +43,6 @@ ship "Flintstriker M1"
 	gun 0 -40 "Mining Drill"
 	gun 26.5 -28
 		"angle" 67
-	turret 0 0
 	engine 0 32
 	"steering engine" -13 28
 		"left"

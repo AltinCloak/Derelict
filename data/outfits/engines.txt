@@ -13,7 +13,7 @@ outfit "Afterburner Engine"
 	"turn" 340
 	"turning fuel" .2
 	"turning heat" 8.5
-	"steering flare sprite" "effect/plasma flare/small"
+	"steering flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 6
 
 outfit "Gyroscopic Steering"

@@ -69,7 +69,10 @@ start "Derelict"
 
 
 conversation "derelict start"
-	scene "land/loc2"
-	`test`
+	scene "land/nasa16"
+	`It's been two years since your ship got stranded here. After you piloted the Kalash into orbit around this gas giant, you haven't touched a set a ship's controls. That changes today.`
+	`	You approach the door to the refitted drone hanger where your new ship has been worked on for the past six months. Now that it's done you're feeling a little nervous.`
+	`	You scan your badge on the keypad as it chimes, "To verify your identity, please state your name."`
 	name
-	
+	`"Welcome Helmsmen, please watch for operating machinery"`
+	DerelictStart = 1
