@@ -58,7 +58,7 @@ system Lost
 	object "Biode Wormhole"
 		sprite ammo/flaming-wheel
 		distance 1400.58
-		period 17.55
+		period 17.54
 	
 
 planet "Carrier: Kalash"
