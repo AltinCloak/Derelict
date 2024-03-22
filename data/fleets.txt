@@ -1,11 +1,9 @@
 fleet "kalash fleet"
 	government "Republic: Abandoned"
-	fighters
-		names "republic fighter"
-		personality harvests mining ramming
 	cargo 0
+	names "republic fighter"
 	personality 
-		mining ramming
+		mining harvests
 	variant 1
 		"Mining Combat Drone"
 		"Mining Surveillance Drone"

@@ -37,7 +37,7 @@ system Gone
 		sprite ammo/flaming-wheel
 		distance 3400.58
 		period 17.55
-	fleet "kalash fleet" 9000
+	fleet "kalash fleet" 6000
 
 system Lost
 		pos -2380.667 1000.917
@@ -59,17 +59,20 @@ system Lost
 		sprite ammo/flaming-wheel
 		distance 1400.58
 		period 17.54
-	
+	object "Frostdeath"
+		sprite planet/ice1-b
+		distance 859.58
+		period 1667.55
 
 planet "Carrier: Kalash"
-	attributes "Derelict" station
+	attributes 
 	landscape land/sivael5
 	music ambient/machinery
 	description `This derelict Carrier has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops and mining asteroids and biodes`
 	security 0.0
 	shipyard "Kalash"
 	outfitter "Kalash"
-	spaceport "test"
+	spaceport
 		recharges all
 		services
 			offers missions
@@ -83,3 +86,10 @@ planet "Biode Wormhole"
 wormhole "biode wormhole"
 	link Gone Lost
 	link Lost Gone
+
+planet "Frostdeath"
+	security 0.0
+	spaceport `built around an old leviathan`
+	description `Home to couple thousand `
+	tribute 120
+		threshold 60

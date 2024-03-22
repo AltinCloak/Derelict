@@ -147,7 +147,7 @@ ship "Mining Surveillance Drone"
 		"outfit space" 56
 		"cargo space" 3
 		"weapon capacity" 0
-		"engine capacity" 28
+		"engine capacity" 31
 		weapon
 			"blast radius" 3
 			"shield damage" 30
@@ -191,7 +191,7 @@ ship "Mining Combat Drone"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Mining Laser"
+		"Mining Drill"
 		
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
@@ -201,7 +201,7 @@ ship "Mining Combat Drone"
 		
 	engine -8.5 28.5 0.9
 	engine 8.5 28.5 0.9
-	gun 0 -29 "Mining Laser"
+	gun 0 -29 "Mining Drill"
 	explode "tiny explosion" 15
 	description "Combat drones are pilotless attack ships used primarily by the Republic Navy. Although very weak and easy to destroy, they can be very effective in large numbers. Because drones do not need a cockpit, they can be filled entirely with equipment and solid metal, which makes their hulls stronger than other small ships."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
