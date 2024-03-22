@@ -46,7 +46,8 @@ outfit "Mining Drill"
 	weapon
 		sprite "weapon/mining_drill/drill"
 			"frame rate" 31
-		"inaccuracy" 0
+		sound "drill"
+		"hit effect" "drilling"
 		"velocity" 35
 		"lifetime" 1
 		"reload" 1
@@ -55,7 +56,7 @@ outfit "Mining Drill"
 		"shield damage" .2
 		"hull damage" 2
 		"minable damage" 3
-		"prospecting
+		"prospecting" .5
 	description ""
 
 outfit "Flamewheel Launcher"

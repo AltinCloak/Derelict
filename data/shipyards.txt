@@ -3,3 +3,7 @@ shipyard "Kalash"
 	"Firecracker"
 	"Logger"
 	"Mining Surveillance Drone"
+	"Mining Combat Drone"
+
+category "ship"
+	"Patrol"

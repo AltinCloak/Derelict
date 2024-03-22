@@ -4,11 +4,12 @@ start "Derelict"
 	system "Gone"
 	planet "Carrier: Kalash"
 	account
-		credits 100000000000000000
+		credits 4611686018427387903
 		score 0
 	conversation "derelict start"
 	description `you're stuck`
 	set "Intro [0]: offered"
+	set "DerelictStart"
 	ship "Flintstriker M1"
 		"display name" "Flintstriker"
 		sprite "ship/first-ship"
@@ -75,4 +76,4 @@ conversation "derelict start"
 	`	You scan your badge on the keypad as it chimes, "To verify your identity, please state your name."`
 	name
 	`"Welcome Helmsmen, please watch for operating machinery"`
-	DerelictStart = 1
+

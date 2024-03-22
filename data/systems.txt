@@ -1,7 +1,8 @@
 system Gone
 	pos -980.667 200.917
-	attributes "Derelict"
-	government Derelict
+	attributes
+	government "Republic: Abandoned"
+	"no raid"
 	arrival 500
 	habitable 370
 	belt 1993
@@ -12,8 +13,9 @@ system Gone
 	asteroids "small metal" 7 4.998
 	asteroids "medium metal" 75 3.434
 	asteroids "large metal" 27 3.4
-	minables lead 11 3.87213
-	minables silicon 35 3.68659
+	minables aluminum 11 3.87213
+	minables silicon 16 3.68659
+	minables copper 14 2.67856
 	minables tungsten 2 4.45307
 	ramscoop
 		universal 1
@@ -31,7 +33,33 @@ system Gone
 				scale 0.5
 			distance 277
 			period 12.3693
+	object "Biode Wormhole"
+		sprite ammo/flaming-wheel
+		distance 3400.58
+		period 17.55
+	fleet "kalash fleet" 9000
 
+system Lost
+		pos -2380.667 1000.917
+	attributes
+	government "Pirate: Lost"
+	arrival 500
+	habitable 370
+	belt 1993
+	haze _menu/haze-blackbody
+	"starfield density" 0.1
+	ramscoop
+		universal 1
+		addend 0.05
+		multiplier 1.1
+	object 
+		sprite "planet/browndwarf-y-rogue"
+		period 30
+	object "Biode Wormhole"
+		sprite ammo/flaming-wheel
+		distance 1400.58
+		period 17.55
+	
 
 planet "Carrier: Kalash"
 	attributes "Derelict" station
@@ -47,4 +75,11 @@ planet "Carrier: Kalash"
 			offers missions
 	tribute 100
 		threshold 20
-		fleet "kalash fleet" 8
+
+planet "Biode Wormhole"
+	attributes
+	wormhole "biode wormhole"
+
+wormhole "biode wormhole"
+	link Gone Lost
+	link Lost Gone

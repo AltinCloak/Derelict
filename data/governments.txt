@@ -1,0 +1,7 @@
+government "Republic: Abandoned"
+	"display name" "Republic"
+	swizzle 0
+	color "governments: Republic"
+
+	"friendly hail" "friendly navy"
+	"hostile hail" "hostile navy"

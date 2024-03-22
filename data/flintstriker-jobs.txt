@@ -4,15 +4,84 @@ mission "Flintstriker test 0"
 	landing
 	source "Carrier: Kalash"
 	to offer
-		DerelictStart 1
+		has "DerelictStart" 
 	on offer 
-		#event "Set Color"
 		conversation
-			`this is a test`
-			`this is a second test`
-				accept
+			scene "thumbnails/first-ship"
+			`As you step into the shipyard, you see the engineering crew completing the final checks and fueling the ship. The chief engineer, Kendra Smith, walks up to you.`
+			`	"Well here she is, the Flintstriker, freshly polished and patched up after our last test."`
+			`	"You ready to take her out?"`
+			choice
+				`	"Absolutely! It's been too long since I've been in a pilot's seat"`
+					goto seat
+				`	"Patched up? What happened"`
+					goto patch
+			label seat
+			`	"Well technically you'll be the captain of this ship, not that it matters that much"`
+			`	"Oh, and I think you should know:"`
+				goto heatsink
+			label patch
+			`	"Oh nothing, it just overheated and then got hit by an asteroid, but we've added a new system that should help with that."`
+			choice
+				`	"Have you tested it since then?"`
+					goto test
+				`	"What system?"`
+					goto heatsink
+			label test
+			`	"We tested the Heatsink Ejector independently and its heat dissipation capabilities should be more than enough."`
+			`	"Oh and I guess I should say, you operate the Ejector like you would a rocket system but to dissipate heat, and I wouldn't expect you to find much use for it as a weapon system."`
+			choice
+				`	"If you fixed it I wont worry about it"`
+					goto leave
+				`	"Sounds like a handy system"`
+					goto useful
+			label heatsink
+			`	"We added a Heatsink Ejector to the original design to help with an overheating problem we've been having."`
+			`	"It's a rudimentary system but basically it plugs its exhaust heat into a metal rod and then shoots it out of the side of the ship. You operate it the same way as you would a missile system, though I don't think you'll find much use for it as a weapon."`
+			choice
+				`	"If the ship is still having overheating problems, should we postpone the launch?"`
+					goto postpone
+				`	"Sounds useful."`
+					goto useful
+			label postpone
+			`	"No, we tested the Ejector independently and it works just fine, just be careful that you don't run out of heatsinks out there."`
+			`	"And besides, this launch is really important that it goes though today."`
+			choice
+				`	"Why is it so important that we launch today?"`
+					goto hope
+				`	"Well then lets get going."`
+					goto leave
+			label hope
+			`	"The hope is that this test can be another beacon of hope that we can thrive even if we are stuck out here in the middle of space."`
+			label useful
+			`	"it's less than ideal but it should work just fine for now. Just make sure you don't run out of heatsinks out there"`
+			`	"But, you ready to get out of here?"`
+			choice
+				`	"YES!"`
+					goto leave
+				`	"I think so."`
+					goto leave
+			label leave
+			`	"Well than lets get this boat in the air!"`
+			`	`
+			`	After a final systems check shows all green, you climb into the cockpit of the ship and start running though the launch checklist."`
+			`	Engines: Check`
+			`	Power Systems: Check`
+			`	Weapon Systems: Check`
+			`	Heat Systems: Manageable`
+			`	Hyperdrive: ...`
+			`	Even though you know that this ship couldn't possibly have it's own hyperdrive, it still hits you that while this is the first the engineering team has manufactured, it is still just another mining vessel.`
+			choice
+				`	"All systems go"`
+					goto go
+			label go
+			`	"Flintstriker, you are clear for launch."`
+				launch
 	on accept
-		event "Set Color"	
+		event "Set Color"
+	on enter
+		conversation
+		`	`
 
 event "Set Color"
 	government "Escort"
