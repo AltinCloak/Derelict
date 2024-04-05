@@ -1,4 +1,4 @@
-outfit "Biode locator"
+outfit "Biode Locator"
 	category "Systems"
 	cost 0
 	thumbnail "thumbnail/biode-locator"

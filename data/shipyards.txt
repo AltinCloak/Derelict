@@ -4,6 +4,8 @@ shipyard "Kalash"
 	"Logger"
 	"Mining Surveillance Drone"
 	"Mining Combat Drone"
+	"Hammerhead Scrapper"
+	"Scrapper"
 
 category "ship"
 	"Patrol"

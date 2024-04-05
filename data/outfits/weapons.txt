@@ -1,6 +1,6 @@
 outfit "Heatsink Ejector"
 	category "Secondary Weapons"
-	thumbnail "thumbnails/heatsink_launcher"
+	thumbnail "thumbnail/heatsink_launcher"
 	cost 0
 	"mass" 5
 	"outfit space" -5
@@ -30,14 +30,14 @@ outfit "Heatsink Ejector"
 outfit "Heatsink"
 	category "Ammunition"
 	cost 0
-	thumbnail "thumbnails/heatsink_thumbnail"
+	thumbnail "thumbnail/heatsink_thumbnail"
 	"mass" .04
 	"heatsink capacity" -1
 	description "A heatsink that you can fire out of your ship to reduce it's heat dramatically"
 
 outfit "Mining Drill"
 	category "Guns"
-	thumbnail "thumbnails/drill_thumbnail"
+	thumbnail "thumbnail/drill_thumbnail"
 	cost 0
 	"mass" 4
 	"outfit space" -4

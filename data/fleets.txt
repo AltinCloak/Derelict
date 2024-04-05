@@ -3,7 +3,8 @@ fleet "kalash fleet"
 	cargo 0
 	names "republic fighter"
 	personality 
-		mining harvests
+		mining harvests plunders
 	variant 1
 		"Mining Combat Drone"
 		"Mining Surveillance Drone"
+		"Scrapper"

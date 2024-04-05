@@ -1,6 +1,6 @@
 outfit "Afterburner Engine"
 	category "Engines"
-	thumbnail "thumbnails/afterburner-engine"
+	thumbnail "thumbnail/afterburner-engine"
 	series "Human: Afterburners"
 	"cost" 0
 	"mass" 14

@@ -1,0 +1,22 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Derelict
+Upstream-Contact: AltinCloak <altincloak@gmail.com>
+Source: https://github.com/AltinCloak/Derelict
+
+Files: *
+Copyright: AltinCloak <altincloak@gmail.com>
+
+Files:
+ icon*.png
+Copyright: AltinCloak <altincloak@gmail.com>
+License: CC-BY-SA-4.0
+Comment: Update this when you create your plugin's icon!
+
+Files:
+ images/ship/pirate?mammoth*
+ images/ship/pirate?scrapper*
+ images/thumbnail/pirate?mammoth*
+ images/thumbnail/pirate?scrapper*
+Copyright: 1010todd
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser and Becca Tommaso under the same license. Incorporating texture made with JSPlacement by WindMillArt <https://windmillart.net/>.

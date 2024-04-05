@@ -1,13 +1,15 @@
 mission "Flintstriker test 0"
-	name "Gather Biode meat"
+	name "Gather Silicon"
 	description "gather biode meat"
 	landing
 	source "Carrier: Kalash"
 	to offer
 		has "DerelictStart" 
 	on offer 
+		log "People" "Kendra Smith" `The chief technician and engineer for the Kalash, Kendra also designed and led the building of the Flintstriker and working on other ship manufacturing projects in the converted docking wing of the Kalash`  
+		log "People" "Robert Darke" `The Commander of the Kalash`
 		conversation
-			scene "thumbnails/first-ship"
+			scene "thumbnail/first-ship"
 			`As you step into the shipyard, you see the engineering crew completing the final checks and fueling the ship. The chief engineer, Kendra Smith, walks up to you.`
 			`	"Well here she is, the Flintstriker, freshly polished and patched up after our last test."`
 			`	"You ready to take her out?"`
@@ -81,7 +83,39 @@ mission "Flintstriker test 0"
 		event "Set Color"
 	on enter
 		conversation
-		`	`
+			`After a surprisingly smooth take off, you hear Commander Darke of the Kalash over the com. "Well Helmsmen <last>, how does she feel?"`
+			choice
+				`	"Smother than I expected"`
+					goto smooth
+				`	"Too fast, I'm used to big ships like the Kalash"`
+					goto fast
+				`	"Isn't it 'Captain' now?"`
+					goto captain
+			label smooth
+			`	"Good to hear.`
+				goto mine
+			label fast
+			`	"Well, I don't think the Kalash will be flying again, but I'm sure you'll be at the helm of a carrier again someday.`
+				goto mine
+			label captain
+			`	"I guess that's true. Well than 'Captain' <last>, how is the Flintstriker doing?"`
+			action
+				set "Captain Now"
+			choice
+				`	"Pretty smooth"`
+					goto smooth
+				`	"More maneuverable then the Kalash was, feels weird"`
+					goto fast
+			label mine
+			`	Well anyways, to complete this test flight, I want you to fill your hold with silicon. You'll need to use your drill to mine the bulbus green asteroids and then fly into the chunks to pick them up"`
+	on visit
+		conversation
+			`You dock with the Kalash but don't have 12 tons of silicon, You can check the outfitter to see what minerals you have. (you can store outfits you want to save with the 'U' key)`	
+	on complete
+		outfit "Silicon" -12
+		conversation
+			`test`
+
 
 event "Set Color"
 	government "Escort"

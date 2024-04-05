@@ -14,7 +14,7 @@ start "Derelict"
 		"display name" "Flintstriker"
 		sprite "ship/first-ship"
 			"scale" .6
-		thumbnail "thumbnails/first-ship"
+		thumbnail "thumbnail/first-ship"
 		attributes
 			category "Interceptor"
 			"cost" 0

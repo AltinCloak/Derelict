@@ -1,5 +1,5 @@
 outfit "Fuel Turbine"
-	thumbnail "thumbnails/fuel-turbine"
+	thumbnail "thumbnail/fuel-turbine"
 	category "Power"
 	cost 0
 	"mass" 5

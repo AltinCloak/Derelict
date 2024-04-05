@@ -65,14 +65,14 @@ system Lost
 		period 1667.55
 
 planet "Carrier: Kalash"
-	attributes 
+	government "Republic: Abandoned"
 	landscape land/sivael5
 	music ambient/machinery
 	description `This derelict Carrier has become your home for the past year. The once impressive battleship now a crowded home for 200 stranded marines and crewmen, barely surviving due to a plethora of ramscoops and mining asteroids and biodes`
 	security 0.0
 	shipyard "Kalash"
 	outfitter "Kalash"
-	spaceport
+	spaceport `test`
 		recharges all
 		services
 			offers missions
@@ -80,7 +80,7 @@ planet "Carrier: Kalash"
 		threshold 20
 
 planet "Biode Wormhole"
-	attributes
+	attributes "requires: heart-drive"
 	wormhole "biode wormhole"
 
 wormhole "biode wormhole"
@@ -89,7 +89,8 @@ wormhole "biode wormhole"
 
 planet "Frostdeath"
 	security 0.0
-	spaceport `built around an old leviathan`
-	description `Home to couple thousand `
+	spaceport `built around an old leviathan with a number of small landing pads. The only ships made here are scrappers of built using a number of different designs`
+	description `The cold star in this system leaves this planet as a frozen wasteland. It has only one settlement, a town of over a thousand people built around an old leviathan nestled between a number of geothermal vents they use for power and heat.`
+	description `Home to couple thousand people descended from pirates who became stranded here over a hundred years ago.`
 	tribute 120
 		threshold 60
